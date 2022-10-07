@@ -1,0 +1,2916 @@
+fileFormatVersion: 2
+guid: 1a290c966ecff2446820928f4b19d8c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1366
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc312fd43382b9e4a810e1fb664d5fd2
+      internalID: 411842260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1366
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b2f8cd3db42e847abdac00b57f30f1
+      internalID: -1601302398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1369
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e97d2c9f5a83ba4c9c4bc1a9df25d35
+      internalID: 597206087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1372
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d444658ff6f4ecf4eb2d1023ba55be33
+      internalID: -910007653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1374
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77a1269e4d95ee45a3723599258ff03
+      internalID: -744917729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1372
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb632c54e73606409307638e71a40a1
+      internalID: -134561199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1367
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8ec0bd17df64449ad34be7dc884f79
+      internalID: -1861884174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1366
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af691aa4126dfd49813584cb4af57da
+      internalID: -817454537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1366
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e840d518aa8d19c40bfb2471c4b7b0ce
+      internalID: 2014611424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1366
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756b4e96ec2e874dbe7a68e13f7504d
+      internalID: 524787119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1366
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f112fbb265914987c3b35a01a8ccc
+      internalID: -906334727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1366
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf186f33abc17e44a14865378145de8
+      internalID: -1043951716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1233
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa9ac388403a540aee106a731786c5
+      internalID: 1564496012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1234
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a132adadcc9f1143b411d0616f2586f
+      internalID: 1910465186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1236
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a420b555a2eb5409938db2af268d5f
+      internalID: -1382340381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1239
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a44364d463304e85745e3b315fce3
+      internalID: -471793126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1241
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8e6c87c96a6e4ea17f4ffd607ad88
+      internalID: 1039829811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1239
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79e352f8f2ee0d4e8b7cd670caa9dc9
+      internalID: 1695059100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1235
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fdd1965db865f4198659f518dbb3fb
+      internalID: -2115324199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1233
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a744bc1a94ec489a1f9c45feb82ad
+      internalID: 224412006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1233
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dce386577f8c54b9da1c116d250ccd
+      internalID: 792364342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1233
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc4e79729fd94429d2f740fa29fd7a
+      internalID: -781516034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1233
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ff845ef6a36742aec1e0f341e9e5a
+      internalID: -1782937742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1233
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f0609ffbf4d0844a132534c13d8193
+      internalID: 1627162609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1100
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debaea024f87d34b94fa6dda0580ed2
+      internalID: -1230926404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1100
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b521bb697ddacd043b85ffa1c2592128
+      internalID: -10201741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1100
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ae977e705b83c4db4b84424c3f252a
+      internalID: -1630925705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1100
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721e3ab967b8ef64ea18f56de2fa8c81
+      internalID: 212040565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1100
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc5877f0ad3d649b1d50701058ebad
+      internalID: 852945806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1100
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b8043a876932f4f9b6eec5bd7a7890
+      internalID: 545253627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1100
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a418ddf1ee3441a6b28da89b45530
+      internalID: -153824968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1100
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1308fe1549edb409f94d7d47411c88
+      internalID: 1566517014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1100
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d2cba67ba8c246999c66fd6dc1b18
+      internalID: 1951736481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1100
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3e531f57d49c04a99ba628d629775d
+      internalID: 1503323197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1100
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad00a44758b214c94b8901dc1bfe69
+      internalID: -1014932441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1102
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc2915afc81f74bace731753f88287
+      internalID: -1128708175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 969
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b2886f064ad05418958c98b8eb167d
+      internalID: 1170721113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 969
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ddabd01b0212e4ebf085a473e3a809
+      internalID: -1461852523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 971
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0194f285e7b87d43950d0aa76c63601
+      internalID: -1600288845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 971
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909305da01470534ea9ef428900619f5
+      internalID: 625161674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 971
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89ca2b273781a646a7bc388981f48f7
+      internalID: -562161297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 971
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624c90d7c11aac40b4520b03fa1e698
+      internalID: 1767612769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 970
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc530087d1027cc428e4b7b8f0ffd155
+      internalID: 1572828577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 969
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12324335e7039224b9b91e661f53fc78
+      internalID: -240059187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 968
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9664a7a67111fe4b9919418b0ed002e
+      internalID: 1416906404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 967
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceedfb331f8721439ab1403b5bd4367
+      internalID: 1139321214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 967
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e18ff744d4c504596db88936153e6d
+      internalID: -2031021878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 967
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c4fafbc4abada4d8305ca17f86cbd2
+      internalID: 136301045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 834
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a34881f05a984588014645c626e03
+      internalID: -1173214121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 834
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab509c9cd628424096b62d6f38c6652
+      internalID: 1911083663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 834
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb00b76e5e68f5041b14314caaf1ad4d
+      internalID: 108489406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 834
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9472ca43f3ec5843bfb4454245d904c
+      internalID: 778847807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 834
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c97e33d4a18e25418e8f0b521e84c2d
+      internalID: -1466204098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 834
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f11887eaef28d4e932bd302ba04bda
+      internalID: -1670389839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 834
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebfc53b8f283084ead7821b032e0724
+      internalID: 772445440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 834
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f09535049a0ed41bc25ca3368102c5
+      internalID: 877189353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 834
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8385229cd373d3f4494d8082737ade95
+      internalID: -552049786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 834
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216828cc0a6add4498fd6dbb8e63a64
+      internalID: -918638788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 834
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5262643744d9dc4ebde1b8a2349284d
+      internalID: 1210714021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 834
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26f9ee966f512942b2af0950cdc5ec1
+      internalID: -1984940009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 701
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d12ddb332f44b643a696ae8683b06d8
+      internalID: -97594818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 701
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b72c2eb0999b7478b03e6e9d4463c8
+      internalID: 89295693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 701
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3302cfdfd40e408e4fca0a1e7445e
+      internalID: -1919520858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 701
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5655e04314aaa24c8ac5ebe42ba7b79
+      internalID: 1911860265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 701
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59679de1754c4ab45a11ae9c95c7aa25
+      internalID: -624273674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 701
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe399c666f9bc045a21991cf7e96a4c
+      internalID: 1029746072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 701
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7330ad630d8cb5544a5d164c7df450cc
+      internalID: -1140843032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 701
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbb5520ed4273944b54963720a1beb2
+      internalID: 36954197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 701
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4ae5d7df2855d4085b75bc325b86f9
+      internalID: -1345756446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 701
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d23f1431b26e4bb4397411edb6f7d
+      internalID: 1045221401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 701
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a035ac84c1af9a47bf637ac6b0192ce
+      internalID: 1675745044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 701
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca26ec71b9c04c148b685965f9b8aef4
+      internalID: 885089272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 568
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63777a3670025d943bc7a630e9e6f913
+      internalID: 963572672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 568
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082390b0f9c027419885b10573bc733
+      internalID: 1973799013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d69a5d7238374a95f23b325d3e5d8
+      internalID: -1052426699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa55b94ebcb1e3b4fb0c81cda743ced3
+      internalID: 2122607896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f155a3f69cda943afd56573cf2012b
+      internalID: 2008802894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 568
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2321c56e9c69b4045b37af3f6e9965be
+      internalID: 678011852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 568
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472cc3c5698be5b4da36f24c6ef59d95
+      internalID: 324888157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 568
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cde4bac1c9eea741b5cfc0a1cdbd08e
+      internalID: 22987725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 568
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee27ddc6331f0d4f93edd0614472317
+      internalID: -597962848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 568
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc902a804de430e41892cdc2190fe6c4
+      internalID: 788511913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 568
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a2c094b2375c04bacac8fb61328c4a
+      internalID: 1733087984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 568
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695623486083d7242b886574a4b9da7d
+      internalID: -559942456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 435
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac8b2879330b841b871826f8ac3772
+      internalID: -564052513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 435
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623e3eb23bdef334fa8bdc3658b98c8b
+      internalID: 2042222363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 435
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2def8b4e39953644395d26ad1dbda653
+      internalID: 542987183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 435
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7781689bad1c0a44eb30eed337e90568
+      internalID: 169100596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 435
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80a9fde2ae1cd1409a492d6ef66ac21
+      internalID: 1959302567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 435
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b750f8a0e38ecee46a0ef6089ad01f24
+      internalID: 592547206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 435
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e58dc416dfbe94a9054944ad830495
+      internalID: 2146260305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 435
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b731b089e8b92b9429837fc945ee3ca0
+      internalID: -28926089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 435
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685faa6d12d6c247a8e6d84df62ed9a
+      internalID: 1733796080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 435
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181e61ea3d1735445bd4d240c805df46
+      internalID: -1342548645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 435
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e15ca4c3f6dd1246a5adcbac442d02e
+      internalID: -1894711708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 435
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4db0559fb324724b9a1683284307237
+      internalID: 1965562471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 302
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bcb2239ac532a4790a59122c22de19
+      internalID: -1655830743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 302
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c8acafd2702d145a16e237da479d17
+      internalID: 191982147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 302
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaf996d02da41e4389bad179176e12a
+      internalID: 555396361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 302
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba28502801ace6148b4ac51d6d77146e
+      internalID: 232459481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 302
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e866cca7683b5f547a3bf9c79822f4d8
+      internalID: -715114910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 302
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134ec0bee0a51e46a689fb0a8762a14
+      internalID: -1167306369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 302
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce97f9ce23ef6b046ab360b49a6aa346
+      internalID: 64676921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 302
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6841beb8311f4da8952fea4a045b7
+      internalID: 1548511480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 302
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299a0795731c78e4f9ea247d14eaef65
+      internalID: -1104294097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 302
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9ce4dec3a3dde468d8321ec84cdae5
+      internalID: 1366416925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 302
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5f632c2a64d8346b37e4e1d3580c8c
+      internalID: 1966079638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 302
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06da806fc759b0445bc914ab551b7ed7
+      internalID: -2094663088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 169
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f417187366e05c4a9b9e06dd4420478
+      internalID: 1254075977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 169
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9d4e51e9bec74ba08f77455da5418
+      internalID: 743692405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 169
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654ae353da08c5d428d4e5bbdd722038
+      internalID: -979250164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 169
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbdd53bd1a1be24bb26c564b36f8c86
+      internalID: -741346848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 169
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbefe3ebd465ec408762cc1cced4200
+      internalID: -128904188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf15ab4ad590db4fa8edab57d01901c
+      internalID: -1141409241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 169
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082bbf4a0e491f4fa5313bade941cce
+      internalID: -104959707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 169
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc7119732e9fa3469a85f9d24fc535c
+      internalID: -1883816450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 169
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b9ec70dae0dbc44b98c251933db814
+      internalID: 1331939348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 169
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d0a58edcb70d441a5e3b3bb1fa4e7a
+      internalID: 402475256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 169
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae95a92433ea3c4cba4c7a527026167
+      internalID: -512435881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 169
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6d4051eb7d1a94b86bd174a6ce35f2
+      internalID: -236742937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 36
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addfad7fb27352249b9b7b924c8a9d69
+      internalID: 716506856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59316ab167785b449a79c02f42f1b98
+      internalID: -1906299131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d69946e7d09d3a439add50949c23e12
+      internalID: -1550506873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a468dbfba900542ae37a302111976c
+      internalID: -679470872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 36
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb3db668bdc9914bbdfe01258f750ca
+      internalID: 429275937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 36
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc6d228915954499cdfcee99816657
+      internalID: -1262878814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hood itch free Copy-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 36
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12cdf60c7fe2d94585644869630c6c7
+      internalID: 615847352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      red hood itch free Copy-Sheet_2: 597206087
+      red hood itch free Copy-Sheet_59: -1984940009
+      red hood itch free Copy-Sheet_52: -1466204098
+      red hood itch free Copy-Sheet_53: -1670389839
+      red hood itch free Copy-Sheet_25: -10201741
+      red hood itch free Copy-Sheet_9: 524787119
+      red hood itch free Copy-Sheet_105: 1366416925
+      red hood itch free Copy-Sheet_118: -512435881
+      red hood itch free Copy-Sheet_75: 2122607896
+      red hood itch free Copy-Sheet_63: 1911860265
+      red hood itch free Copy-Sheet_60: -97594818
+      red hood itch free Copy-Sheet_10: -906334727
+      red hood itch free Copy-Sheet_3: -910007653
+      red hood itch free Copy-Sheet_23: 1627162609
+      red hood itch free Copy-Sheet_107: -2094663088
+      red hood itch free Copy-Sheet_27: 212040565
+      red hood itch free Copy-Sheet_36: 1170721113
+      red hood itch free Copy-Sheet_88: 1959302567
+      red hood itch free Copy-Sheet_69: 1045221401
+      red hood itch free Copy-Sheet_5: -134561199
+      red hood itch free Copy-Sheet_86: 542987183
+      red hood itch free Copy-Sheet_38: -1600288845
+      red hood itch free Copy-Sheet_6: -1861884174
+      red hood itch free Copy-Sheet_16: 1039829811
+      red hood itch free Copy-Sheet_41: 1767612769
+      red hood itch free Copy-Sheet_31: 1566517014
+      red hood itch free Copy-Sheet_78: 324888157
+      red hood itch free Copy-Sheet_114: -104959707
+      red hood itch free Copy-Sheet_46: -2031021878
+      red hood itch free Copy-Sheet_101: -1167306369
+      red hood itch free Copy-Sheet_40: -562161297
+      red hood itch free Copy-Sheet_126: 615847352
+      red hood itch free Copy-Sheet_66: -1140843032
+      red hood itch free Copy-Sheet_65: 1029746072
+      red hood itch free Copy-Sheet_115: -1883816450
+      red hood itch free Copy-Sheet_8: 2014611424
+      red hood itch free Copy-Sheet_28: 852945806
+      red hood itch free Copy-Sheet_62: -1919520858
+      red hood itch free Copy-Sheet_68: -1345756446
+      red hood itch free Copy-Sheet_20: 792364342
+      red hood itch free Copy-Sheet_45: 1139321214
+      red hood itch free Copy-Sheet_74: -1052426699
+      red hood itch free Copy-Sheet_77: 678011852
+      red hood itch free Copy-Sheet_102: 64676921
+      red hood itch free Copy-Sheet_0: 411842260
+      red hood itch free Copy-Sheet_35: -1128708175
+      red hood itch free Copy-Sheet_24: -1230926404
+      red hood itch free Copy-Sheet_71: 885089272
+      red hood itch free Copy-Sheet_94: -1894711708
+      red hood itch free Copy-Sheet_84: -564052513
+      red hood itch free Copy-Sheet_89: 592547206
+      red hood itch free Copy-Sheet_72: 963572672
+      red hood itch free Copy-Sheet_64: -624273674
+      red hood itch free Copy-Sheet_116: 1331939348
+      red hood itch free Copy-Sheet_1: -1601302398
+      red hood itch free Copy-Sheet_92: 1733796080
+      red hood itch free Copy-Sheet_13: 1910465186
+      red hood itch free Copy-Sheet_48: -1173214121
+      red hood itch free Copy-Sheet_113: -1141409241
+      red hood itch free Copy-Sheet_81: 788511913
+      red hood itch free Copy-Sheet_70: 1675745044
+      red hood itch free Copy-Sheet_96: -1655830743
+      red hood itch free Copy-Sheet_14: -1382340381
+      red hood itch free Copy-Sheet_12: 1564496012
+      red hood itch free Copy-Sheet_34: -1014932441
+      red hood itch free Copy-Sheet_26: -1630925705
+      red hood itch free Copy-Sheet_49: 1911083663
+      red hood itch free Copy-Sheet_121: -1906299131
+      red hood itch free Copy-Sheet_122: -1550506873
+      red hood itch free Copy-Sheet_112: -128904188
+      red hood itch free Copy-Sheet_123: -679470872
+      red hood itch free Copy-Sheet_93: -1342548645
+      red hood itch free Copy-Sheet_44: 1416906404
+      red hood itch free Copy-Sheet_90: 2146260305
+      red hood itch free Copy-Sheet_17: 1695059100
+      red hood itch free Copy-Sheet_4: -744917729
+      red hood itch free Copy-Sheet_67: 36954197
+      red hood itch free Copy-Sheet_80: -597962848
+      red hood itch free Copy-Sheet_117: 402475256
+      red hood itch free Copy-Sheet_103: 1548511480
+      red hood itch free Copy-Sheet_106: 1966079638
+      red hood itch free Copy-Sheet_125: -1262878814
+      red hood itch free Copy-Sheet_18: -2115324199
+      red hood itch free Copy-Sheet_7: -817454537
+      red hood itch free Copy-Sheet_51: 778847807
+      red hood itch free Copy-Sheet_99: 232459481
+      red hood itch free Copy-Sheet_22: -1782937742
+      red hood itch free Copy-Sheet_50: 108489406
+      red hood itch free Copy-Sheet_47: 136301045
+      red hood itch free Copy-Sheet_32: 1951736481
+      red hood itch free Copy-Sheet_97: 191982147
+      red hood itch free Copy-Sheet_104: -1104294097
+      red hood itch free Copy-Sheet_79: 22987725
+      red hood itch free Copy-Sheet_42: 1572828577
+      red hood itch free Copy-Sheet_119: -236742937
+      red hood itch free Copy-Sheet_83: -559942456
+      red hood itch free Copy-Sheet_29: 545253627
+      red hood itch free Copy-Sheet_21: -781516034
+      red hood itch free Copy-Sheet_15: -471793126
+      red hood itch free Copy-Sheet_124: 429275937
+      red hood itch free Copy-Sheet_108: 1254075977
+      red hood itch free Copy-Sheet_110: -979250164
+      red hood itch free Copy-Sheet_95: 1965562471
+      red hood itch free Copy-Sheet_37: -1461852523
+      red hood itch free Copy-Sheet_11: -1043951716
+      red hood itch free Copy-Sheet_56: -552049786
+      red hood itch free Copy-Sheet_120: 716506856
+      red hood itch free Copy-Sheet_85: 2042222363
+      red hood itch free Copy-Sheet_43: -240059187
+      red hood itch free Copy-Sheet_87: 169100596
+      red hood itch free Copy-Sheet_19: 224412006
+      red hood itch free Copy-Sheet_61: 89295693
+      red hood itch free Copy-Sheet_109: 743692405
+      red hood itch free Copy-Sheet_30: -153824968
+      red hood itch free Copy-Sheet_33: 1503323197
+      red hood itch free Copy-Sheet_55: 877189353
+      red hood itch free Copy-Sheet_39: 625161674
+      red hood itch free Copy-Sheet_91: -28926089
+      red hood itch free Copy-Sheet_100: -715114910
+      red hood itch free Copy-Sheet_98: 555396361
+      red hood itch free Copy-Sheet_54: 772445440
+      red hood itch free Copy-Sheet_111: -741346848
+      red hood itch free Copy-Sheet_57: -918638788
+      red hood itch free Copy-Sheet_58: 1210714021
+      red hood itch free Copy-Sheet_76: 2008802894
+      red hood itch free Copy-Sheet_73: 1973799013
+      red hood itch free Copy-Sheet_82: 1733087984
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

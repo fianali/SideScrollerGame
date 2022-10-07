@@ -11,8 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundObjects;
     public float radius;
-    
-    
+
+    private Animator animator;
     private Rigidbody2D rb;
     private float direction;
     private bool facingRight = true;
@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -48,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isJumping = false;
+        animator.SetBool("isJumping", isJumping);
+
     }
 
     private void Flip()
@@ -71,9 +74,12 @@ public class PlayerMovement : MonoBehaviour
     private void GetInputs()
     {
         direction = Input.GetAxis("Horizontal");
+        animator.SetFloat("direction", direction);
+        
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
+            animator.SetBool("isJumping", isJumping);
         }
     }
 

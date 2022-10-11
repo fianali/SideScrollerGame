@@ -53,9 +53,10 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+//flip character based on direction
     private void Flip()
     {
-        //flip character based on direction
+        //if character is facing left
         if (direction > 0 && !facingRight)
         {
             FlipCharacter();
@@ -68,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
     void FlipCharacter()
     {
         facingRight = !facingRight;
-        gameObject.transform.Rotate(0f,180f,0f);
+        transform.Rotate(0f,180f,0f);
     }
 
     private void GetInputs()

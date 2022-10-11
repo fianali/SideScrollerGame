@@ -1,18 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public Transform firepoint;
+    public GameObject arrow;
     // Update is called once per frame
     void Update()
     {
-        
+        GetInput();
+    }
+    void GetInput()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        Instantiate(arrow, firepoint.position, firepoint.rotation);
     }
 }

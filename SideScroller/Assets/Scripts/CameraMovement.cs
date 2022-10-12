@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public GameObject player;
+    // public GameObject player;
     //boundaries
     public float xMin;
     public float xMax;
@@ -20,8 +20,9 @@ public class CameraMovement : MonoBehaviour
 
     void FindXandY()
     {
-        float x = Math.Clamp(player.transform.position.x, xMin, xMax);
-        float y = Math.Clamp(player.transform.position.y, yMin, yMax);
+        float x = Math.Clamp(PlayerMovement.Instance.transform.position.x, xMin, xMax);
+        float y = Math.Clamp(PlayerMovement.Instance.transform.position.y, yMin, yMax);
+        transform.position = new Vector3(x, y, transform.position.z);
 
     }
 }

@@ -7,10 +7,21 @@ public class Bow : MonoBehaviour
 {
     public Transform firepoint;
     public GameObject arrow;
+
+    private Vector3 mousePos;
+
+    private void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
         GetInput();
+        mousePos = (Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        Debug.Log(mousePos);
+
     }
     void GetInput()
     {
@@ -22,6 +33,16 @@ public class Bow : MonoBehaviour
 
     void Shoot()
     {
+        // FlipCharacterFromMouse();
         Instantiate(arrow, firepoint.position, firepoint.rotation);
+    }
+
+    void FlipCharacterFromMouse()
+    {
+        //mouse is to the right of player
+        if (mousePos.x > PlayerMovement.Instance.transform.position.x)
+        {
+            
+        }
     }
 }

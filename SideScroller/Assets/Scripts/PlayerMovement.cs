@@ -6,7 +6,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
-    
     public float speed = 5f;
     public float jumpForce = 250f;
     public Transform ceilingCheck;
@@ -56,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-//flip character based on direction
+    //flip character based on direction
     private void Flip()
     {
         //if character is facing left

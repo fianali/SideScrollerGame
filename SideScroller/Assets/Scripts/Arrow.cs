@@ -6,9 +6,7 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public float speed = 15f;
-    public GameObject rotatePoint;
-    private Camera camera;
-    
+
     private Rigidbody2D rb;
     private Vector3 mousePos;
 
@@ -16,22 +14,25 @@ public class Arrow : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        camera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
 
         rb.velocity = transform.right * speed;
+        StartCoroutine(DestroyAfterSeconds());
     }
 
     private void Update()
     {
-        mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 rotation = mousePos - rotatePoint.transform.position;
-        float rotateZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        rotatePoint.transform.rotation = Quaternion.Euler(0, 0, rotateZ);
+        mousePos = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.name);
+        Destroy(gameObject);
+    }
+
+    IEnumerator DestroyAfterSeconds()
+    {
+        yield return new WaitForSeconds(5f);
         Destroy(gameObject);
     }
     

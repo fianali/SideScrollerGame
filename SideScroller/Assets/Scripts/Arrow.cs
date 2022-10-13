@@ -8,7 +8,6 @@ public class Arrow : MonoBehaviour
     public float speed = 15f;
 
     private Rigidbody2D rb;
-    private Vector3 mousePos;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +20,7 @@ public class Arrow : MonoBehaviour
 
     private void Update()
     {
-        mousePos = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
+        // transform.position = Vector3.MoveTowards(transform.position, mousePos, .5f);
     }
 
     private void OnTriggerEnter2D(Collider2D col)

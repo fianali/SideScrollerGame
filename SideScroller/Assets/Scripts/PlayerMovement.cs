@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping = false;
     private bool isGrounded;
 
+
     private void Awake()
     {
         Instance = this;
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, radius, groundObjects);
         Move();
-        
+
     }
 
     // Update is called once per frame
@@ -40,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         GetInputs();
 
         Flip();
+        
     }
 
     private void Move()
@@ -84,6 +86,8 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
             animator.SetBool("isJumping", isJumping);
         }
+
+        
     }
 
 }

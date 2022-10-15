@@ -16,10 +16,12 @@ public class Arrow : MonoBehaviour
 
         rb.velocity = transform.right * speed;
         StartCoroutine(DestroyAfterSeconds());
+        Physics2D.IgnoreLayerCollision(7, 0);
     }
 
     private void Update()
     {
+        // rb.AddForce();
         // transform.position = Vector3.MoveTowards(transform.position, mousePos, .5f);
     }
 

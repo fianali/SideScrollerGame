@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool facingRight = true;
     private bool isJumping = false;
     private bool isGrounded;
+    private Vector3 mousePos;
 
 
     private void Awake()
@@ -32,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, radius, groundObjects);
         Move();
-
+        
     }
 
     // Update is called once per frame
@@ -42,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         Flip();
         
+        GetMousePosition();
     }
 
     private void Move()
@@ -69,6 +71,20 @@ public class PlayerMovement : MonoBehaviour
         {
             FlipCharacter();
         }
+        
+        //player shoots bow on left side while facing right, makes sure player flips
+        if (Input.GetButtonDown("Fire1"))
+        {
+            if (facingRight && mousePos.x < transform.position.x)
+            {
+                FlipCharacter();
+            }
+            else if (!facingRight && mousePos.x > transform.position.x)
+            {
+                FlipCharacter();
+            }
+            
+        }
     }
     void FlipCharacter()
     {
@@ -88,6 +104,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         
+    }
+
+    void GetMousePosition()
+    {
+        mousePos = (Camera.main.ScreenToWorldPoint(Input.mousePosition));
     }
 
 }

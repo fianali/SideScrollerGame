@@ -72,19 +72,19 @@ public class PlayerMovement : MonoBehaviour
             FlipCharacter();
         }
         
-        //player shoots bow on left side while facing right, makes sure player flips
-        if (Input.GetButtonDown("Fire1"))
-        {
-            if (facingRight && mousePos.x < transform.position.x)
-            {
-                FlipCharacter();
-            }
-            else if (!facingRight && mousePos.x > transform.position.x)
-            {
-                FlipCharacter();
-            }
-            
-        }
+        //player shoots bow on the opposite side their facing, makes sure player flips
+        // if (Input.GetButtonDown("Fire1"))
+        // {
+        //     if (facingRight && mousePos.x < transform.position.x)
+        //     {
+        //         FlipCharacter();
+        //     }
+        //     else if (!facingRight && mousePos.x > transform.position.x)
+        //     {
+        //         FlipCharacter();
+        //     }
+        //     
+        // }
     }
     void FlipCharacter()
     {

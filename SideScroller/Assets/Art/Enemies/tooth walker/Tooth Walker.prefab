@@ -140,6 +140,7 @@ MonoBehaviour:
   enemyName: Toothie
   speed: 3
   maxHp: 50
+  distance: 6
 --- !u!95 &2052380683
 Animator:
   serializedVersion: 4

@@ -6,11 +6,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private string enemyName;
-    [SerializeField] private float speed;
+    [SerializeField] protected private float speed;
 
     private float hp;
     [SerializeField] private float maxHp;
-    [SerializeField] private float distance;
+    [SerializeField] protected private float distance;
 
     private Animator animator;
     private SpriteRenderer sp;
@@ -32,12 +32,12 @@ public class Enemy : MonoBehaviour
         Flip();
     }
 
-    void Introduction()
+    protected virtual void Introduction()
     {
         Debug.Log("My name is " + enemyName + " HP: " + hp + " Speed: " + speed);
     }
 
-    void Move()
+    protected virtual void Move()
     {
         //move towards player if attack range is small enough
         if (Vector2.Distance(transform.position, PlayerMovement.Instance.transform.position) < distance)

@@ -19,12 +19,6 @@ public class Arrow : MonoBehaviour
         Physics2D.IgnoreLayerCollision(7, 0);
     }
 
-    private void Update()
-    {
-        // rb.AddForce();
-        // transform.position = Vector3.MoveTowards(transform.position, mousePos, .5f);
-    }
-
     private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.name);

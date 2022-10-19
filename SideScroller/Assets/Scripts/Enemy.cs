@@ -23,6 +23,8 @@ public class Enemy : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
         hp = maxHp;
         Introduction();
+        Physics2D.IgnoreLayerCollision(8,8);
+
     }
 
     // Update is called once per frame
@@ -46,6 +48,11 @@ public class Enemy : MonoBehaviour
                 speed * Time.deltaTime);
             animator.SetBool("isMoving", true);
         }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+
     }
 
     void Flip()
@@ -58,6 +65,26 @@ public class Enemy : MonoBehaviour
         {
             sp.flipX = false;
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        //arrow hits enemy
+        if (col.gameObject.tag == "Arrow")
+        {
+            hp -= 10;
+            Debug.Log("hp: " + hp);
+        }
+
+        if (hp <= 0)
+        {
+            Death();
+        }
+    }
+
+    protected virtual void Death()
+    {
+        Debug.Log(gameObject + "died :(");
     }
 }
 

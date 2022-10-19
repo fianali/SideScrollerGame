@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4469608719908732361}
   - component: {fileID: 429080596}
   - component: {fileID: 429080597}
+  - component: {fileID: 1528238853}
   m_Layer: 8
   m_Name: Trash Monster
   m_TagString: Trash
@@ -159,14 +160,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057983390514904439}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef0299829e2314f49a02ebb867e78ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Trashie
   speed: 1
-  maxHp: 100
+  maxHp: 80
   distance: 5
 --- !u!95 &429080597
 Animator:
@@ -188,3 +189,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1528238853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057983390514904439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0134cbb644e52b345aa3210331f9f51e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: Trashie
+  speed: 1
+  maxHp: 100
+  distance: 5

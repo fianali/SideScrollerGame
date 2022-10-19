@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
     //flip character based on direction
     private void Flip()
     {
-        //if character is facing left
+        //if character is facing left, flip it so theyre facing right
         if (direction > 0 && !facingRight)
         {
             FlipCharacter();
@@ -71,20 +71,16 @@ public class PlayerMovement : MonoBehaviour
         {
             FlipCharacter();
         }
-        
-        //player shoots bow on the opposite side their facing, makes sure player flips
-        // if (Input.GetButtonDown("Fire1"))
-        // {
-        //     if (facingRight && mousePos.x < transform.position.x)
-        //     {
-        //         FlipCharacter();
-        //     }
-        //     else if (!facingRight && mousePos.x > transform.position.x)
-        //     {
-        //         FlipCharacter();
-        //     }
-        //     
-        // }
+
+        //flip character if mouse is on other side
+        if (mousePos.x < direction && facingRight)
+        {
+            FlipCharacter();
+        }
+        if (mousePos.x > direction && !facingRight)
+        {
+            FlipCharacter();
+        }
     }
     void FlipCharacter()
     {

@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 3428015980865772739}
   - component: {fileID: 107094333}
   - component: {fileID: 107094332}
-  m_Layer: 0
+  - component: {fileID: 107094340}
+  - component: {fileID: 107094334}
+  m_Layer: 8
   m_Name: Flying Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,8 +129,64 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &107094332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320810279182645262}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0299829e2314f49a02ebb867e78ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: Sir Eye
+  speed: 4
+  maxHp: 20
+  distance: 6
+--- !u!60 &107094340
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320810279182645262}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28125, y: 0.96875}
+    newSize: {x: 0.82, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.390625, y: 0.4012246}
+      - {x: 0.04904747, y: 0.24144125}
+      - {x: -0.171875, y: 0.35502958}
+      - {x: -0.578125, y: 0.484375}
+      - {x: -0.640625, y: 0.453125}
+      - {x: -0.60366917, y: -0.019158363}
+      - {x: -0.46372437, y: -0.01834631}
+      - {x: -0.28763604, y: 0.061270952}
+      - {x: -0.055301905, y: -0.36426878}
+      - {x: 0.203125, y: -0.484375}
+      - {x: 0.359375, y: -0.421875}
+      - {x: 0.3841071, y: -0.27269125}
+      - {x: 0.33573997, y: 0.15067625}
+      - {x: 0.6533855, y: 0.24436712}
+      - {x: 0.640625, y: 0.484375}
+--- !u!114 &107094334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,10 +195,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2320810279182645262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef0299829e2314f49a02ebb867e78ad7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7f2a03d9e4b3545baf8f47b3c7bac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Sir Eye
-  speed: 4
+  speed: 3
   maxHp: 10
   distance: 6
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}

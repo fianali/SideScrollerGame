@@ -101,9 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Mushroomie
-  speed: 5
-  maxHp: 10
-  distance: 10
+  speed: 4
+  maxHp: 20
+  distance: 6.5
 --- !u!50 &1538663955
 Rigidbody2D:
   serializedVersion: 4

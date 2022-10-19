@@ -10,7 +10,12 @@ public class Eye : Enemy
 
     private void Awake()
     {
+        //cant drag and drop into inspector, declare it instead
+        waypoint1 = GameObject.FindGameObjectWithTag("waypoint1").GetComponent<Transform>();
+        waypoint2 = GameObject.FindGameObjectWithTag("waypoint2").GetComponent<Transform>();
+
         waypointDestination = waypoint1;
+        
     }
 
     protected override void Introduction()

@@ -11,19 +11,26 @@ public class Enemy : MonoBehaviour
     private float hp;
     [SerializeField] private float maxHp;
     [SerializeField] protected private float distance;
+    [SerializeField] protected private float distanceToAttack;
+    
+    private bool isAttacking;
+    [SerializeField] private Transform colliderCheck;
+    [SerializeField] private LayerMask player;
+    [SerializeField] private float radius;
+
+
 
     private Animator animator;
-    private SpriteRenderer sp;
+    private SpriteRenderer sp;  
 
-
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         sp = GetComponent<SpriteRenderer>();
         hp = maxHp;
-        Introduction();
         Physics2D.IgnoreLayerCollision(8,8);
+        
+        Introduction();
 
     }
 
@@ -32,6 +39,12 @@ public class Enemy : MonoBehaviour
     {
         Move();
         Flip();
+        Attack();
+    }
+
+    private void FixedUpdate()
+    {
+        isAttacking = Physics2D.OverlapCircle(colliderCheck.position, radius, player);
     }
 
     protected virtual void Introduction()
@@ -73,7 +86,7 @@ public class Enemy : MonoBehaviour
         if (col.gameObject.tag == "Arrow")
         {
             hp -= 10;
-            Debug.Log("hp: " + hp);
+            Debug.Log(gameObject + "hp: " + hp);
         }
 
         if (hp <= 0)
@@ -82,9 +95,22 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    public void Attack()
+    {
+        if (Vector2.Distance(transform.position, PlayerMovement.Instance.transform.position) < distanceToAttack)
+        {
+            animator.SetBool("isAttacking",true);
+        }
+        else
+        {
+            animator.SetBool("isAttacking",false);
+        }
+    }
     protected virtual void Death()
     {
-        Debug.Log(gameObject + "died :(");
+        animator.SetBool("isDead", true);
+        Destroy(gameObject);
     }
+    
 }
 

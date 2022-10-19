@@ -12,6 +12,6 @@ public class Trash : Enemy
 
     protected override void Death()
     {
-        Destroy(gameObject);
+        
     }
 }

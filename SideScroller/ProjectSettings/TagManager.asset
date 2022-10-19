@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Arrow
+  - Toothie
+  - Trash
+  - waypoint1
+  - waypoint2
   layers:
   - Default
   - TransparentFX
@@ -14,7 +18,7 @@ TagManager:
   - UI
   - Ground
   - Player
-  - 
+  - Monsters
   - 
   - 
   - 

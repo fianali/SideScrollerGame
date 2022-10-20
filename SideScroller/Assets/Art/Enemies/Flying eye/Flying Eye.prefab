@@ -179,6 +179,7 @@ MonoBehaviour:
   maxHp: 20
   distance: 6
   distanceToAttack: 2
+  damageToPlayer: 0
   colliderCheck: {fileID: 927520578}
   player:
     serializedVersion: 2
@@ -238,9 +239,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Sir Eye
   speed: 3
-  maxHp: 10
+  maxHp: 20
   distance: 6
   distanceToAttack: 2
+  damageToPlayer: 10
   colliderCheck: {fileID: 927520578}
   player:
     serializedVersion: 2

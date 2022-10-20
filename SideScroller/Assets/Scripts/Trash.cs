@@ -9,9 +9,5 @@ public class Trash : Enemy
     {
         Debug.Log("I'm gonna trash you up!");
     }
-
-    protected override void Death()
-    {
-        
-    }
+    
 }

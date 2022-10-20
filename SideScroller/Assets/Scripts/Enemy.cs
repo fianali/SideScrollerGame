@@ -8,20 +8,19 @@ public class Enemy : MonoBehaviour
     [SerializeField] private string enemyName;
     [SerializeField] protected private float speed;
 
+    private bool isAttacking;
     private float hp;
     [SerializeField] private float maxHp;
     [SerializeField] protected private float distance;
     [SerializeField] protected private float distanceToAttack;
+    [SerializeField] protected private int damageToPlayer;
     
-    private bool isAttacking;
     [SerializeField] private Transform colliderCheck;
     [SerializeField] private LayerMask player;
     [SerializeField] private float radius;
 
-
-
     private Animator animator;
-    private SpriteRenderer sp;  
+    private SpriteRenderer sp;
 
     void Start()
     {
@@ -29,6 +28,7 @@ public class Enemy : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
         hp = maxHp;
         Physics2D.IgnoreLayerCollision(8,8);
+        animator.SetBool("isDead", false);
         
         Introduction();
 
@@ -80,7 +80,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    protected virtual void OnTriggerEnter2D(Collider2D col)
     {
         //arrow hits enemy
         if (col.gameObject.tag == "Arrow")
@@ -91,14 +91,15 @@ public class Enemy : MonoBehaviour
 
         if (hp <= 0)
         {
-            Death();
+            StartCoroutine(Death());
         }
     }
 
-    public void Attack()
+    protected virtual void Attack()
     {
         if (Vector2.Distance(transform.position, PlayerMovement.Instance.transform.position) < distanceToAttack)
         {
+            Debug.Log("doing " + damageToPlayer + "damage to player");
             animator.SetBool("isAttacking",true);
         }
         else
@@ -106,9 +107,12 @@ public class Enemy : MonoBehaviour
             animator.SetBool("isAttacking",false);
         }
     }
-    protected virtual void Death()
+    
+
+    protected virtual IEnumerator Death()
     {
         animator.SetBool("isDead", true);
+        yield return new WaitForSeconds(.5f);
         Destroy(gameObject);
     }
     

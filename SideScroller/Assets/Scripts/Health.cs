@@ -7,30 +7,42 @@ public class Health : MonoBehaviour
 {
     public int hp;
     public int maxHp;
-
-    public Transform mushroomAttackRange;
-    public Transform eyeAttackRange;
-    public Transform trashAttackRange;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         hp = maxHp;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Die();
     }
-
+    
     private void OnCollisionEnter2D(Collision2D col)
     {
-        //enemy's hit collider is near the player
-       // if (Vector2.Distance(mushroomAttackRange.position,transform.position) < .00001f || Vector2.Distance(eyeAttackRange.position,transform.position) < .001f || Vector2.Distance(trashAttackRange.position,transform.position) < .0001f)
-        if(col.gameObject.layer == 8)
+        if (col.gameObject.layer == 8)
         {
-            hp--;
+            animator.SetTrigger("Hurt");
+            if (col.gameObject.tag == "Trash")
+            {
+                hp -= 30;
+            }
+            else
+            {
+                hp -= 10;
+            }
+        }
+    }
+
+    void Die()
+    {
+        if (hp <= 0)
+        {
+            animator.SetBool("isDead",true);
         }
     }
 }

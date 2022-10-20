@@ -137,6 +137,7 @@ MonoBehaviour:
   maxHp: 20
   distance: 6.5
   distanceToAttack: 0.5
+  damageToPlayer: 10
   colliderCheck: {fileID: 1729418223}
   player:
     serializedVersion: 2
